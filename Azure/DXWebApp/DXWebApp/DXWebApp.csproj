@@ -223,6 +223,7 @@
     <Content Include="Connected Services\AzureAD\ConnectedService.json" />
     <None Include="Properties\PublishProfiles\AlternaDxTeamApp - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\AzuredDXWebApp - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\JenkinsDXApp - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\MyAzureADApp - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
