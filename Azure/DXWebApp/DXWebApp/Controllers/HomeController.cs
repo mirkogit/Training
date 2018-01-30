@@ -16,7 +16,7 @@ namespace DXWebApp.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Alterna DX Team Page.";
 
             return View();
         }
