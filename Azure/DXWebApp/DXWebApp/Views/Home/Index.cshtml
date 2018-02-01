@@ -3,9 +3,14 @@
 }
 
 <div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    @if (Request.IsAuthenticated)
+    {
+        <h2>@String.Format("Welcome {0} !", User.Identity.Name)</h2>
+    }
+    else
+    {
+        <h2>Alterna DX Team </h2>
+    }
 </div>
 
 <div class="row">
